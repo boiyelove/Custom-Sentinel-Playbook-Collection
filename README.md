@@ -2,6 +2,19 @@
 
 Provide reusable, production-ready Sentinel automation playbooks for enrichment, notification, and ITSM coordination.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions |
+| Services and stack | Sentinel; Logic Apps; Teams; ITSM APIs; Key Vault |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; YAML configuration; Python validation/tests |
+
 ## Problem statement
 
 A high-severity incident is normalized into an approved, idempotent enrichment and ticketing plan with sanitized fields before Logic App connectors contact Teams or ITSM systems.
