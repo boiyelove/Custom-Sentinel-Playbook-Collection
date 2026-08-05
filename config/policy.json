@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Custom-Sentinel-Playbook-Collection",
+  "rank": 49,
+  "action": "plan_custom_sentinel_playbook_collection",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
